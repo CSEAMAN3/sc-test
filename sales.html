@@ -42,6 +42,28 @@
       <!-- fieldset  with legend -->
       <!-- label and inputs to take Location Name, min cust per hour, max cust per hour, avg cookies per sale -->
       <!-- a submit button -->
+      <form id="cookie-form">
+        <fieldset>
+          <legend>Create A New Cookie Store</legend>
+          <label>
+            store Name:
+            <input type="text" name="newStoreName" id="new-store-name" />
+          </label>
+          <label>
+            Minimum Customers Per Hour:
+            <input type="text" name="minCust" id="min-cust" />
+          </label>
+          <label>
+            Maximum Customers Per Hour:
+            <input type="text" name="maxCust" id="max-cust" />
+          </label>
+          <label>
+            Average Cookies Sold Per Customer
+            <input type="text" name="avgCookies" id="avg-cookies" />
+          </label>
+          <button id="submit-btn" type="submit">Create Store Data</button>
+        </fieldset>
+      </form>
     </main>
     <footer>
       <div class="footer-container container">
